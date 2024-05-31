@@ -493,8 +493,8 @@ function App() {
           ) : (
             <div>
               <p>Pro přihlášení k testovacímu účtu použij účet:<br />
-              Uživatelské jméno: tester <br />
-              Heslo: 1.tajneheslo
+              Uživatelské jméno: <span className="text-warning">tester</span><br />
+              Heslo: <span className="text-warning">1.tajneheslo</span>
               </p>
             </div>
           )}
